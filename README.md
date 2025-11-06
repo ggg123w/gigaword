@@ -10,3 +10,5 @@
 6. data/ablation_results.json 是消融实验结果：记录不同模型配置的详细实验结果：比较不同消融实验的性能差异，包含模型配置参数、参数量、最佳验证损失、测试损失、每个epoch的训练/验证损失
 7. data/ablation_study_results.png 是消融实验可视化：包含验证损失对比、测试损失对比、参数量对比、验证vs测试损失
 8. data/attention_heads_comparison.png 是注意力头数分析，专门分析不同注意力头数对模型性能的影响
+9. 运行要求：
+   CPU: 4核以上，内存: 8GB RAM，存储: 10GB 可用空间，GPU无要求
