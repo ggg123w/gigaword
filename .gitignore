@@ -1,2 +1,32 @@
-data/best_model.pth
+data/
+*.pkl
 *.pth
+*.pt
+*.h5
+*.npy
+*.npz
+*.arrow
+*.bin
+
+# 模型文件
+models/
+best_model.pth
+checkpoints/
+
+# 缓存和临时文件
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.cache/
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+logs/
+
+# 数据集文件
+datasets/
+*.csv
+*.jsonl
+*.parquet
